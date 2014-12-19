@@ -1,9 +1,4 @@
 # .bashrc
-# append to the history file, don't overwrite it
-shopt -s histappend
-
-HISTSIZE=10000
-HISTFILESIZE=20000
 
 # User specific aliases and functions
  
@@ -41,12 +36,12 @@ alias ls='ls --color=auto'
 alias h='ps -ef | grep http'
 alias cc='/root/tools/clear'
 
+# append to the history file, don't overwrite it
+shopt -s histappend
 
-PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin:/root/tools/
+HISTSIZE=10000
+HISTFILESIZE=20000
 
-# check the window size after each command and, if necessary,
-# update the values of LINES and COLUMNS.
-shopt -s checkwinsize
 
 # set a fancy prompt (non-color, unless we know we "want" color)
 case "$TERM" in
