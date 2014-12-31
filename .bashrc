@@ -1,7 +1,3 @@
-# .bashrc
-
-# User specific aliases and functions
-
 alias vi='vim'
 alias ll='ls -hal'
 alias rm='rm -i'
