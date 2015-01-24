@@ -3,6 +3,9 @@ alias ll='ls -hal'
 alias rm='rm -i'
 alias cp='cp -i'
 alias ..='cd ../'
+alias ...='cd ../../'
+alias ....='cd ../../../'
+alias .....='cd ../../../../'
 alias mv='mv -i'
 alias netstat='netstat -tulanp'
 alias c='clear'
@@ -32,6 +35,11 @@ alias du='du -ch'
 alias ls='ls --color=auto'
 alias h='ps -ef | grep http'
 alias cc='/root/tools/clear'
+alias hr='service httpd restart'
+
+# don't put duplicate lines or lines starting with space in the history.
+# See bash(1) for more options
+HISTCONTROL=ignoreboth
 
 # append to the history file, don't overwrite it
 shopt -s histappend
