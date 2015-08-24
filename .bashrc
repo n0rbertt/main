@@ -37,7 +37,7 @@ alias h='ps -ef | grep http'
 alias cc='/root/tools/clear'
 alias hr='service httpd restart'
 alias cls='printf "\033c"'
-
+alias ip="ifconfig | grep -n2 eth0 | grep 'inet addr' | cut -d : -f2 | grep -E -o '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}'"
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
 HISTCONTROL=ignoreboth
