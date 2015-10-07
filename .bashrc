@@ -45,8 +45,8 @@ HISTCONTROL=ignoreboth
 # append to the history file, don't overwrite it
 shopt -s histappend
 
-HISTSIZE=10000
-HISTFILESIZE=20000
+HISTSIZE=
+HISTFILESIZE=
 
 
 # set a fancy prompt (non-color, unless we know we "want" color)
@@ -55,7 +55,7 @@ case "$TERM" in
 esac
 
 export PS1="\[\e[00;36m\]\u\[\e[0m\]\[\e[00;31m\]@\[\e[0m\]\[\e[00;36m\]\h\[\e[0m\]\[\e[00;37m\]:\[\e[0m\]\[\e[00;32m\]\w\[\e[0m\]\[\e[00;37m\]\\$ \[\e[0m\]"
-
+export HISTTIMEFORMAT="%d/%m/%y %T "
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then
