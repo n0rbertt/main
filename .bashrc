@@ -1,3 +1,4 @@
+alias su='sudo -i'
 alias vi='vim'
 alias ll='ls -hl'
 alias rm='rm -i'
