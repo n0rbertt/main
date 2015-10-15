@@ -55,7 +55,8 @@ case "$TERM" in
     xterm-color) color_prompt=yes;;
 esac
 
-export PS1="\[\e[00;36m\]\u\[\e[0m\]\[\e[00;31m\]@\[\e[0m\]\[\e[00;36m\]\h\[\e[0m\]\[\e[00;37m\]:\[\e[0m\]\[\e[00;32m\]\w\[\e[0m\]\[\e[00;37m\]\\$ \[\e[0m\]"
+export PS1="\[\e[38;5;039m\][\u\[\e[m\]\[\e[38;5;232m\]@\[\e[m\]\[\e[38;5;039m\]\h\[\e[m\]\[\e[38;5;046m\] \w\[\e[m\]\[\e[38;5;039m\]]\[\e[m\]\\$ "
+#export PS1="\[\e[00;36m\]\u\[\e[0m\]\[\e[00;31m\]@\[\e[0m\]\[\e[00;36m\]\h\[\e[0m\]\[\e[00;37m\]:\[\e[0m\]\[\e[00;32m\]\w\[\e[0m\]\[\e[00;37m\]\\$ \[\e[0m\]"
 export HISTTIMEFORMAT="%d/%m/%y %T "
 
 # Source global definitions
