@@ -54,7 +54,7 @@ HISTFILESIZE=
 case "$TERM" in
     xterm-color) color_prompt=yes;;
 esac
-export PS1="\[\e[38;5;039m\][\u\[\e[m\]\[\e[38;5;232m\]@\[\e[m\]\[\e[38;5;039m\]\h\[\e[m\]\[\e[38;5;046m\] \w\[\e[m\]\[\e[38;5;039m\]]\[\e[m\] \\$"
+export PS1="\[\e[38;5;039m\][\u\[\e[m\]\[\e[38;5;232m\]@\[\e[m\]\[\e[38;5;039m\]\h\[\e[m\]\[\e[38;5;046m\] \w\[\e[m\]\[\e[38;5;039m\]]\[\e[m\] \\$ "
 #export PS1="[\[\e[33m\]\u\[\e[m\]\[\e[32m\]@\[\e[m\]\[\e[31m\]\h\[\e[m\] \[\e[31m\]\W\[\e[m\]]\[\e[35m\]\\$\[\e[m\] "
 export HISTTIMEFORMAT="%d/%m/%y %T "
 
