@@ -1,6 +1,6 @@
 alias su='sudo -i'
 alias vi='vim'
-alias ll='ls -hl'
+alias ll='ls -hal'
 alias rm='rm -i'
 alias cp='cp -i'
 alias ..='cd ../'
