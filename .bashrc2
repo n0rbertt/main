@@ -51,7 +51,10 @@ shopt -s histappend
 HISTSIZE=
 HISTFILESIZE=
 
-export PS1="\[\e[34m\][\[\e[m\]\[\e[38;5;039m\]\u\[\e[m\]\[\e[31m\]@\[\e[m\]\[\e[38;5;039m\]\h\[\e[m\] \[\e[32m\]\w\[\e[m\]\[\e[34m\]]\[\e[m\]\\$ "
+
+export PS1="\[\e[34m\][\[\e[m\]\[\e[38;5;42m\]\u\[\e[m\]\[\e[38;5;173m\]@\[\e[m\]\[\e[38;5;42m\]\h\[\e[m\] \[\e[32m\]\W\[\e[m\]\[\e[34m\]]\[\e[m\]\\$ "
+
+#export PS1="\[\e[34m\][\[\e[m\]\[\e[38;5;039m\]\u\[\e[m\]\[\e[31m\]@\[\e[m\]\[\e[38;5;039m\]\h\[\e[m\] \[\e[32m\]\w\[\e[m\]\[\e[34m\]]\[\e[m\]\\$ "
 export HISTTIMEFORMAT="%d/%m/%y %T "
 
 # set a fancy prompt (non-color, unless we know we "want" color)
