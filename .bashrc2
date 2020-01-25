@@ -42,6 +42,15 @@ alias ip="ifconfig | grep -n2 eth0 | grep 'inet addr' | cut -d : -f2 | grep -E -
 alias gohome="ssh centos@192.168.0.132"
 alias serial='date +%Y%m%d%I'
 
+alias grepGR="  GREP_COLOR='1;30' grep -E --color=always"
+alias grepR="   GREP_COLOR='1;31' grep -E --color=always"
+alias grepG="   GREP_COLOR='1;32' grep -E --color=always"
+alias grepY="   GREP_COLOR='1;33' grep -E --color=always"
+alias grepB="   GREP_COLOR='1;34' grep -E --color=always"
+alias grepM="   GREP_COLOR='1;35' grep -E --color=always"
+alias grepC="   GREP_COLOR='1;36' grep -E --color=always"
+alias grepW="   GREP_COLOR='1;37' grep -E --color=always"
+
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
 HISTCONTROL=ignoreboth
