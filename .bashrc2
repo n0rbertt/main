@@ -58,7 +58,7 @@ HISTCONTROL=ignoreboth
 # append to the history file, don't overwrite it
 shopt -s histappend
 
-HISTSIZE=
+HISTSIZE=50000
 HISTFILESIZE=
 export PS1="\[\e[34m\][\[\e[m\]\[\e[38;5;039m\]\u\[\e[m\]\[\e[31m\]@\[\e[m\]\[\e[38;5;039m\]\h\[\e[m\] \[\e[32m\]\W\[\e[m\]\[\e[34m\]]\[\e[m\]\\$ "
 export HISTTIMEFORMAT="%d/%m/%y %T "
