@@ -80,6 +80,3 @@ esac
 if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
-×
-Drag and Drop
-The image will be downloaded
