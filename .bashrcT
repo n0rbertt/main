@@ -4,6 +4,7 @@ alias k='cd /APPBOX_DATA/storage/k/'
 alias t='cd /APPBOX_DATA/apps/rutorrent.elaboratethinking.appboxes.co/torrents/'
 alias stor='cd /APPBOX_DATA/storage/'
 alias p=pwd
+alias s='space | awk "{print \$4}"'
 
 
 alias su='sudo -i'
