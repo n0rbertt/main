@@ -1,4 +1,5 @@
 alias p='clear && pant'
+alias hi='hostname -i'
 alias su='sudo -i'
 alias vi='vim'
 alias ll='ls -hal'
