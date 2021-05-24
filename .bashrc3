@@ -9,7 +9,7 @@ alias ..='cd ../'
 alias ...='cd ../../'
 alias ....='cd ../../../'
 alias .....='cd ../../../../'
-
+alias p='clear && pant'
 
 alias bc='bc -l'
 alias c='clear'
