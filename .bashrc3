@@ -9,7 +9,7 @@ alias ..='cd ../'
 alias ...='cd ../../'
 alias ....='cd ../../../'
 alias .....='cd ../../../../'
-alias p='clear && pant'
+alias p='watch -n1 netstat -pant'
 alias hi='hostname -i'
 
 alias bc='bc -l'
