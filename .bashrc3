@@ -13,7 +13,7 @@ alias ..='cd ../'
 alias ...='cd ../../'
 alias ....='cd ../../../'
 alias .....='cd ../../../../'
-alias p='netstat -pant | grep "squid" && echo "/n waiting... /n"'
+alias p='netstat -pant | grep "squid" ; echo "\n waiting... \n"'
 alias hi='hostname -i'
 
 alias bc='bc -l'
