@@ -50,6 +50,7 @@ alias psmem='ps auxf | sort -nr -k 4'
 alias psmem10='ps auxf | sort -nr -k 4 | head -10'
 alias rm='rm -i'
 alias serial='date +%Y%m%d%I'
+alias sss='systemctl restart squid && systemctl status squid'
 
 alias uptime='uptime -p'
 alias vi='vim'
